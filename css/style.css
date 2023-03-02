@@ -1,0 +1,52 @@
+*,body{
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "muslish", sans-serif;
+}
+.grid-container {
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.bg {
+    background: #0c93c9;
+}
+
+.menu {
+    display:grid;
+    grid-template-columns: 250px auto;
+    column-gap: 50px;
+    padding-top: 45px;
+}
+
+.order-list {
+    border-bottom: 2px solid black;
+    padding:5px;
+    list-style: none;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu{
+    
+
+}
+.heading{
+    color: #0c93c9;
+    border-bottom: 3px solid  #0c93c9 ;
+    display: inline-block;
+
+    
+
+}
